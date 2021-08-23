@@ -51,7 +51,7 @@ Resources:
             print(sum(a,b))
             print(difference(a,b))
             print(product(a,b))
-            print("hello")
+            print("helllo")
       FunctionName: calculator_lambda_function
       Handler: index.lambda_handler
       Role: !GetAtt lambdaRole.Arn
