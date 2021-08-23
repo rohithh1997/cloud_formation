@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            sh "aws cloudformation create-stack --stack-name calculator1 --template-body file://jenkins_cal.yaml --capabilities CAPABILITY_IAM --region 'us-east-1'"
+            sh "aws cloudformation update-stack --stack-name calculator1 --template-body file://jenkins_cal.yaml --capabilities CAPABILITY_IAM --region 'us-east-1'"
               }
              }
             }
