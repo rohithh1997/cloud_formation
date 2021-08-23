@@ -9,4 +9,4 @@ Resources:
     Properties:
       BucketName: jgkvhblhygfxjmdhgfcjycjygvh
       VersioningConfiguration:
-       Status: Enabled
+       Status: Disable
